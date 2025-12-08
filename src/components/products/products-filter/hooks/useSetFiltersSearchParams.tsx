@@ -34,5 +34,5 @@ export const useSetFiltersSearchParams = (filters: Filters) => {
     return () => {
       clearTimeout(handler);
     };
-  }, [filters, searchParams, setSearchParams]);
+  }, [filters]);
 };
